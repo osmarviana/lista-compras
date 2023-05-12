@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+  .box-list {
+    width: 100%;
+  }
+  .item .item-input {
+    width: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header .title {
+    font-size: 38px;
+  }
+
+  .box-list {
+    padding: 20px 10px;
+  }
+
+  .box-list .inputs {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .inputs .input {
+    padding: 5px;
+  }
+
+  .inputs .add-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .result {
+    padding: 10px;
+  }
+
+  .result .list {
+    padding: 10px 0;
+  }
+
+  .list .item {
+    gap: 5px;
+    padding: 0 5px;
+  }
+
+  .item .info-item {
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    flex-direction: column;
+  }
+
+  .info-item .total-value {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header .title {
+    font-size: 34px;
+  }
+
+  .inputs .input {
+    font-size: 12px;
+  }
+
+  .inputs .add-btn {
+    font-size: 12px;
+  }
+
+  .item .info-item {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .header-items {
+    font-size: 12px;
+  }
+}

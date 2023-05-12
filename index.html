@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/reponsive.css" />
+
+    <link rel="shortcut icon" href="./src/img/icon.png" type="image/x-icon" />
+
+    <script
+      src="https://kit.fontawesome.com/a6af6215d3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="box-list">
+        <header class="header">
+          <img
+            class="icon-img"
+            src="./src/img/icon.png"
+            alt="Icone do carrinho de compras"
+          />
+          <h1 class="title">Suas Compras</h1>
+        </header>
+        <div class="inputs">
+          <input
+            class="input"
+            type="text"
+            name="input"
+            id="input"
+            placeholder="Informe seu item de compra"
+          />
+          <button class="add-btn" id="add-btn">Adicionar</button>
+        </div>
+        <div class="hide" id="result">
+          <ul class="list" id="list">
+            <div class="info-list">
+              <div class="header-items">
+                <div class="info-item-header">
+                  <span>Item</span>
+                </div>
+                <div class="info-item-header">
+                  <span>Valor</span>
+                </div>
+                <div class="info-item-header">
+                  <span>Qtd</span>
+                </div>
+                <div class="info-item-header">
+                  <span>Total</span>
+                </div>
+                <div class="info-item-header">
+                  <span>Deletar</span>
+                </div>
+              </div>
+            </div>
+          </ul>
+          <p class="sum-values">Valor Total das Compras: R$ 0,00</p>
+        </div>
+      </section>
+      <footer class="footer">
+        <p>&copy; 2023 Osmar Viana</p>
+      </footer>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #f05228;
+  padding: 10px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-list {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.61);
+  background-color: #f1f1f1;
+  color: #f05228;
+}
+
+.box-list .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.header .icon-img {
+  width: 12%;
+}
+
+.header .title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #303030;
+}
+
+.box-list .inputs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f05228;
+  padding: 25px 20px;
+  gap: 20px;
+}
+
+.inputs .input {
+  width: 70%;
+  border: none;
+  padding: 10px 15px;
+  color: #303030;
+  font-size: 14px;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.inputs .add-btn {
+  background-color: #303030;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 9px 15px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #303030;
+  padding: 25px 30px;
+  gap: 20px;
+}
+
+.result .info-list {
+  width: 100%;
+  background-color: #303030;
+}
+
+.result .list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f05228;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+
+.list .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+  gap: 10px;
+}
+
+.item .info-item {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.item .info-item-del {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item .item-input {
+  width: 50px;
+  border: none;
+  padding: 2px 5px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.item-input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.item-input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.fa-sharp {
+  font-size: 16px;
+  cursor: pointer;
+  color: #303030;
+}
+
+.list .delete {
+  cursor: pointer;
+}
+
+.sum-values {
+  width: 100%;
+  text-align: right;
+  padding: 8px 15px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.header-items {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #303030;
+}
+
+.info-item-header {
+  width: 20%;
+  text-align: center;
+}
+
+
+.footer p {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 12px;
+}
