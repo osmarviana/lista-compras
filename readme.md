@@ -34,6 +34,12 @@ Optei por manter os comentários no código para finalidade didática, já que a
 
 </br>
 
+## Sobre o projeto
+
+O projeto utiliza JavaScript para criar uma lista de compras com cálculo automático. As principais ferramentas usadas são seleção/manipulação de elementos do DOM, eventos, armazenamento/manipulação de dados, cálculos matemáticos e atualização dinâmica do conteúdo. O código adiciona itens à lista, calcula valores totais, remove itens e exibe os resultados no navegador.
+
+</br>
+
 ## Ferramentas usadas
 
 - HTML
