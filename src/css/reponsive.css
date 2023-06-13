@@ -9,7 +9,7 @@
 
 @media (max-width: 425px) {
   .header .title {
-    font-size: 2em;
+    font-size: 34px;
   }
 
   .box-list {
@@ -57,7 +57,7 @@
 
 @media (max-width: 375px) {
   .header .title {
-    font-size: 1.7em;
+    font-size: 32px;
   }
 
   .inputs .input {
